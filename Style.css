@@ -1,0 +1,107 @@
+@import  url ( 'https://fonts.googleapis.com/css?family=Nunito' );
+
+* {
+  margó :  0 ;
+  párnázás :  0 ;
+  box-sizing : border-box;
+  körvonal : nincs;
+  szöveg-dekoráció : nincs;
+  lista-stílus : nincs;
+  font-family :  'Nunito' , sans-serif;
+}
+
+body {
+  háttér :  # dfdfdf ;
+}
+
+. wrapper {
+  kijelző : flex;
+  maximális szélesség :  560 px ;
+  szélesség :  100 % ;
+  magasság :  350 px ;
+  pozíció : abszolút;
+  felső :  50 % ;
+  bal : 50 % ;
+  átalakítani :  lefordítani ( -50 % , -50 % );
+}
+
+. burkoló . balra ,
+. burkoló . jobb {
+  szélesség :  50 % ;
+  magasság :  100 % ;
+  kitöltés :  30 px ;
+}
+
+. burkoló . bal {
+  háttér :  # 494f57 ;
+}
+
+. burkoló . bal  h3 {
+  szöveg igazítása : középre;
+  text-transform : nagybetűs;
+  betűköz :  3 px ;
+  szín :  # fff ;
+  betűméret :  20 px ;
+}
+
+. burkoló . left  img {
+  kijelző : blokk;
+  szélesség :  220 px ;
+  margó :  25 px auto 0 ;
+}
+
+. burkoló . jobb {
+  háttér :  # fff ;
+}
+
+. burkoló . igaz . tabs  ul {
+  szöveg igazítása : középre;
+}
+
+. burkoló . igaz . tabs  ul  li {
+  kijelző : inline-block;
+  margó :  5 px ;
+  kitöltés :  5 px  10 px ;
+  betűméret :  14 px ;
+  szín :  # 494f57 ;
+  text-transform : nagybetűs;
+  betűköz :  2 px ;
+  kurzor : pointer;
+}
+
+. burkoló . igaz . tabs  ul  li . aktív {
+  border-bottom :  2 px tömör # 494f57 ;
+}
+
+. burkoló . igaz . regisztráció ,
+. burkoló . igaz . login {
+  margin-top :  20 px ;
+}
+
+. burkoló . igaz . beviteli_mező {
+  margó-alsó :  15 px ;
+}
+
+. burkoló . igaz . beviteli_mező . input {
+  szélesség :  100 % ;
+  kitöltés :  10 px  15 px ;
+  határ :  0 ;
+  betűméret :  12 px ;
+  háttér :  # ecebeb ;
+}
+
+. burkoló . igaz . btn {
+  margin-top :  20 px ;
+  háttér :  # 494f57 ;
+  kitöltés :  10 px ;
+  szöveg igazítása : középre;
+  text-transform : nagybetűs;
+  betűköz :  3 px ;
+  font-weight : félkövér;
+}
+
+. burkoló . igaz . btn  a {
+  szín :  # fff ;
+  kijelző : blokk;
+  betűméret :  14 px ;
+}
